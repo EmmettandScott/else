@@ -19,7 +19,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="106">
-                <field name="NUM">75</field>
+                <field name="NUM">20</field>
               </block>
             </value>
           </block>
@@ -47,7 +47,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="158">
-                <field name="NUM">75</field>
+                <field name="NUM">20</field>
               </block>
             </value>
           </block>
@@ -75,7 +75,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="201">
-                <field name="NUM">75</field>
+                <field name="NUM">20</field>
               </block>
             </value>
           </block>
@@ -103,7 +103,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="211">
-                <field name="NUM">75</field>
+                <field name="NUM">20</field>
               </block>
             </value>
           </block>
@@ -122,8 +122,18 @@
           </block>
         </statement>
         <value name="IF4">
-          <block type="sensor_object" id="242">
-            <field name="OBJECT">REAR</field>
+          <block type="logic_compare" id="273" inline="true">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="sensor_object" id="274">
+                <field name="OBJECT">RIGHTSIDE</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="275">
+                <field name="NUM">20</field>
+              </block>
+            </value>
           </block>
         </value>
         <statement name="DO4">
