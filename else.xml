@@ -2,7 +2,7 @@
   <block type="oled_cleardisplay" id="285" x="87" y="-29">
     <next>
       <block type="oled_drawtext" id="300">
-        <field name="TEXT">emmett and scott</field>
+        <field name="TEXT">EMMETT</field>
         <next>
           <block type="controls_whileUntil" id="76" inline="false">
             <field name="MODE">UNTIL</field>
