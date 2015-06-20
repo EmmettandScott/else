@@ -42,23 +42,33 @@
                       </block>
                     </value>
                     <statement name="DO0">
-                      <block type="movement_reverse" id="343">
+                      <block type="led_select" id="400" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="431">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="robot_delay" id="344" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="345">
-                                <field name="NUM">150</field>
-                              </block>
-                            </value>
+                          <block type="movement_reverse" id="343">
                             <next>
-                              <block type="movement_right" id="125">
+                              <block type="robot_delay" id="344" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="345">
+                                    <field name="NUM">150</field>
+                                  </block>
+                                </value>
                                 <next>
-                                  <block type="robot_delay" id="215" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="216">
-                                        <field name="NUM">250</field>
+                                  <block type="movement_right" id="125">
+                                    <next>
+                                      <block type="robot_delay" id="215" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="216">
+                                            <field name="NUM">250</field>
+                                          </block>
+                                        </value>
                                       </block>
-                                    </value>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -83,23 +93,33 @@
                       </block>
                     </value>
                     <statement name="DO1">
-                      <block type="movement_reverse" id="346">
+                      <block type="led_select" id="401" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="410">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="robot_delay" id="347" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="348">
-                                <field name="NUM">150</field>
-                              </block>
-                            </value>
+                          <block type="movement_reverse" id="346">
                             <next>
-                              <block type="movement_left" id="174">
+                              <block type="robot_delay" id="347" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="348">
+                                    <field name="NUM">150</field>
+                                  </block>
+                                </value>
                                 <next>
-                                  <block type="robot_delay" id="213" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="214">
-                                        <field name="NUM">250</field>
+                                  <block type="movement_left" id="174">
+                                    <next>
+                                      <block type="robot_delay" id="213" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="214">
+                                            <field name="NUM">250</field>
+                                          </block>
+                                        </value>
                                       </block>
-                                    </value>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -124,14 +144,24 @@
                       </block>
                     </value>
                     <statement name="DO2">
-                      <block type="movement_right" id="198">
+                      <block type="led_select" id="402" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="417">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="robot_delay" id="217" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="218">
-                                <field name="NUM">250</field>
+                          <block type="movement_right" id="198">
+                            <next>
+                              <block type="robot_delay" id="217" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="218">
+                                    <field name="NUM">250</field>
+                                  </block>
+                                </value>
                               </block>
-                            </value>
+                            </next>
                           </block>
                         </next>
                       </block>
@@ -152,14 +182,24 @@
                       </block>
                     </value>
                     <statement name="DO3">
-                      <block type="movement_left" id="212">
+                      <block type="led_select" id="403" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="424">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="robot_delay" id="219" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="220">
-                                <field name="NUM">250</field>
+                          <block type="movement_left" id="212">
+                            <next>
+                              <block type="robot_delay" id="219" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="220">
+                                    <field name="NUM">250</field>
+                                  </block>
+                                </value>
                               </block>
-                            </value>
+                            </next>
                           </block>
                         </next>
                       </block>
