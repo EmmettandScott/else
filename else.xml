@@ -2,7 +2,7 @@
   <block type="oled_cleardisplay" id="285" x="87" y="-29">
     <next>
       <block type="oled_drawtext" id="300">
-        <field name="TEXT">emmett</field>
+        <field name="TEXT">emmett's robot</field>
         <next>
           <block type="oled_setcursor" id="357" inline="true">
             <value name="STARTX">
