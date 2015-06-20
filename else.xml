@@ -30,7 +30,7 @@
               <block type="robot_delay" id="215" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="216">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
               </block>
@@ -58,7 +58,7 @@
               <block type="robot_delay" id="213" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="214">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
               </block>
@@ -86,7 +86,7 @@
               <block type="robot_delay" id="217" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="218">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
               </block>
@@ -114,7 +114,7 @@
               <block type="robot_delay" id="219" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="220">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
               </block>
@@ -126,7 +126,7 @@
             <field name="OP">LT</field>
             <value name="A">
               <block type="sensor_object" id="274">
-                <field name="OBJECT">RIGHTSIDE</field>
+                <field name="OBJECT">REAR</field>
               </block>
             </value>
             <value name="B">
